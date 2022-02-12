@@ -1,10 +1,10 @@
-import World from "./world"
+import SaySomething from "./saySomething"
 
 //htmlElement型のroot変数を用意してるだけ
 const root: HTMLElement | null = document.getElementById("root")
 
 //インスタンス化
-const world = new World("Hello Typescript")
-world.sayText(root)
+const saySomething = new SaySomething("Hello Typescript")
+saySomething.sayText(root)
 
 

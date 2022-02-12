@@ -1,4 +1,4 @@
-export default class World {
+export default class SaySomething {
     //クラスで使うプロパティ
     message: string;
 

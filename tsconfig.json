@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     //コンパイル後のJavaScriptのバージョンの指定
-    "target": "ES5",
+    "target": "ES2015",
     //コンパイル時にモジュール関連のコードをどの方式として扱うかを指定
     "module": "CommonJS",
     //暗黙的に利用される"any"型を禁止にするなど、コンパイル時に厳格なチェックを行う
